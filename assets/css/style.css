@@ -2,12 +2,18 @@ body,
 html {
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 /* Navigation */
 
 #navbarNav {
     flex-direction: row-reverse;
+}
+
+/* General */
+.center {
+  text-align: center;
 }
 
 /* Title */
@@ -27,7 +33,7 @@ html {
 .caption {
     position: absolute;
     left: 0;
-    top: 25%;
+    top: 33%;
     width: 100%;
     text-align: center;
     color: white;
@@ -48,3 +54,104 @@ hr {
 .quote {
     font-size: 16px;
 }
+
+/* About Me */
+
+#about-me-section {
+    background-color: lightgray;
+}
+
+#meImage {
+    width: 17em;
+    border-radius: 50%;
+    right: 20px;
+   display: block;
+   margin-left: auto;
+}
+
+.about-me-row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.about-me-text {
+    height: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+/* Knowledge */
+
+.knowledge-row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.html-icon {
+    font-size: 30px;
+    color: #ffc582;
+}
+
+.css-icon {
+    font-size: 35px;
+    color:  #ddda49
+}
+
+.js-icon {
+    font-size: 35px;
+    color: #54d771;
+}
+
+.db-icon {
+    font-size: 30px;
+    color: #5999cd;
+}
+
+.icon-div-height {
+    height: 45px;
+}
+
+/* Portfolio */
+
+.container-portfolio {
+    position: relative;
+    width: 50%;
+  }
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .portfolio-hover:hover .overlay {
+    opacity: 1;
+  }
+
+  .text-portfolio {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
