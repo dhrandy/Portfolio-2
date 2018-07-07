@@ -59,6 +59,8 @@ hr {
 
 #about-me-section {
     background-color: lightgray;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #meImage {
@@ -70,8 +72,6 @@ hr {
 }
 
 .about-me-row {
-    padding-top: 40px;
-    padding-bottom: 40px;
     height: 100%;
     /* background-color: rgb(0, 0, 0); */
 }
@@ -84,10 +84,13 @@ hr {
 }
 
 /* Knowledge */
+#knowledge-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .knowledge-row {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .html-icon {
@@ -116,6 +119,12 @@ hr {
 
 /* Portfolio */
 
+#portfolio-section {
+    background-color: lightgray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .container-portfolio {
     position: relative;
     width: 50%;
@@ -134,13 +143,13 @@ hr {
     left: 0;
     right: 0;
     height: 50%;
-    width: 100%;
+    width: 200px;
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
   }
 
-  .portfolio-hover:hover .overlay {
+  .container-portfolio:hover .overlay {
     opacity: 1;
   }
 
@@ -153,5 +162,11 @@ hr {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .portfolio-col {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
   }
   
