@@ -127,14 +127,10 @@ hr {
 
 .container-portfolio {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
 
-.image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+
 
   .overlay {
     position: absolute;
@@ -143,7 +139,7 @@ hr {
     left: 0;
     right: 0;
     height: 50%;
-    width: 200px;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
@@ -167,6 +163,6 @@ hr {
   .portfolio-col {
       margin: 0px;
       padding: 0px;
-      width: 100%;
+
   }
   
