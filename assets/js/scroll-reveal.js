@@ -56,3 +56,32 @@ sr.reveal('.fa-envelope', {
 sr.reveal('.img-fluid', { 
     duration: 1500 }, 100
 )
+
+
+
+//Sections
+sr.reveal('#about-section', {
+    reset: true,
+    distance: '2px',
+    duration: 600
+})
+sr.reveal('#knowledge-section', {
+    reset: true,
+    distance: '2px',
+    duration: 600
+})
+sr.reveal('#portfolio-section', {
+    reset: true,
+    distance: '2px',
+    duration: 600
+})
+sr.reveal('#knowledge-section', {
+    reset: true,
+    distance: '2px',
+    duration: 600
+})
+sr.reveal('#contact-section', {
+    reset: true,
+    distance: '2px',
+    duration: 600
+})
