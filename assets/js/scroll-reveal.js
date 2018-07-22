@@ -1,8 +1,10 @@
 window.sr = ScrollReveal();
+//Navbar
 sr.reveal('.navbar', {
     duration: 2000,
     origin: 'bottom'
 })
+//Icons
 sr.reveal('.facebookIcon', {
     duration: 1500,
     origin: 'top',
@@ -23,11 +25,13 @@ sr.reveal('.githubIcon', {
     origin: 'top',
     distance: '100px'
 })
+//Image of me
 sr.reveal('#meImage', {
     duration: 2000,
     origin: 'left',
     distance: '200px'
 })
+//Knowledge Icons
 sr.reveal('.fa-code', {
     duration: 2000,
     origin: 'left',
@@ -48,6 +52,7 @@ sr.reveal('.fa-database', {
     origin: 'right',
     distance: '200px'
 })
+//Contact Image
 sr.reveal('.fa-envelope', {
     duration: 1000,
     origin: 'left',
