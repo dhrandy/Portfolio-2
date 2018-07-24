@@ -62,36 +62,33 @@ sr.reveal('.img-fluid', {
     duration: 1500
 }, 100)
 
-
-
-//Sections
-sr.reveal('#about-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
-sr.reveal('#knowledge-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
-sr.reveal('#portfolio-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
-sr.reveal('#knowledge-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
-sr.reveal('#contact-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
+//Sections - Removed when I added parallax
+// sr.reveal('#about-section', {
+//     reset: true,
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
+// sr.reveal('#knowledge-section', {
+//     reset: true,
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
+// sr.reveal('#portfolio-section', {
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
+// sr.reveal('#knowledge-section', {
+//     reset: true,
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
+// sr.reveal('#contact-section', {
+//     reset: true,
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
